@@ -21,7 +21,7 @@ a {
 .left {
 	float: left;
 	height: 100%;
-	width: 40%;
+	width: 48%;
 	padding: 1rem 1rem 1rem 1rem;
 	display: table;
 }
@@ -55,7 +55,7 @@ p + a {
 .slider {
 	float: right;
 	position: relative;
-	width: 60%;
+	width: 52%;
 	height: 100%;
 }
 .slider li {

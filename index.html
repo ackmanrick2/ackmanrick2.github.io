@@ -13,8 +13,19 @@
 <!-- partial:index.partial.html -->
 <section class="intro">
       <div class="left">
-        <div>
+		<div>
           <!--<h1>Mengenang 1000 Hari Wafatnya <b>Suami, Papa, dan Opa Kami Tercinta</b></h1>-->
+			<audio id="music" controls autoplay loop>
+			  <source src="bg_music.mp3" type="audio/ogg">
+			  <embed src="bg_music.mp3" autostart="true" loop="true" hidden="true"> 
+			</audio>
+			<script>
+				var music = document.getElementById('music')
+				music.addEventListener("play", function () {
+				  music.style.display = "none"
+				});
+			</script>
+			<br />
 		  <img src="mukaddimah.jpg" width="100%">
           <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos eveniet amet excepturi voluptates dolorem totam ad quod hic, porro accusamus, repellat, corrupti at obcaecati ducimus, dolor quibusdam sequi nemo inventore?</p>
           <a href="https://unsplash.com/" target="_blank">Images by Unsplash</a>-->
@@ -41,6 +52,33 @@
 				<div style="max-height:100vh; position:absolute">
 					<center><img src="img\6.jpg" style="height:100vh" /></center>
 				</div>
+				<div style="max-height:100vh; position:absolute">
+					<center><img src="img\7.jpg" style="height:100vh" /></center>
+				</div>
+				<div style="max-height:100vh; position:absolute">
+					<center><img src="img\8.jpg" style="height:100vh" /></center>
+				</div>
+				<div style="max-height:100vh; position:absolute">
+					<center><img src="img\9.jpg" style="height:100vh" /></center>
+				</div>
+				<div style="max-height:100vh; position:absolute">
+					<center><img src="img\10.jpg" style="height:100vh" /></center>
+				</div>
+				<div style="max-height:100vh; position:absolute">
+					<center><img src="img\11.jpg" style="height:100vh" /></center>
+				</div>
+				<div style="max-height:100vh; position:absolute">
+					<center><img src="img\12.jpg" style="height:100vh" /></center>
+				</div>
+				<div style="max-height:100vh; position:absolute">
+					<center><img src="img\13.jpg" style="height:100vh" /></center>
+				</div>
+				<div style="max-height:100vh; position:absolute">
+					<center><img src="img\14.jpg" style="height:100vh" /></center>
+				</div>
+				<div style="max-height:100vh; position:absolute">
+					<center><img src="img\15.jpg" style="height:100vh" /></center>
+				</div>
 			
       </div>
 	</section>
@@ -57,7 +95,7 @@
 		  nextArrow:false,
 		  infinite: true,
 		  autoplay: true,
-		  speed: 1000,
+		  speed: 800,
 		  fade: true,
 		  cssEase: 'linear'
 		});
